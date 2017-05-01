@@ -1,0 +1,8 @@
+.screenshot {
+  height: 530px;
+  background-color: #626b74;
+  width: 890px;
+  border-radius: 4px;
+  box-shadow: 0 -10px 25px 0 rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}

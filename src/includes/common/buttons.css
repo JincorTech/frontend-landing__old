@@ -1,0 +1,35 @@
+.button {
+  font: 500 16px 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1em;
+  color: #222;
+
+  @media (max-width: 320px) {
+    font: 500 15px 'Roboto';
+  }
+
+  &--primary {
+    padding: 19px 48px;
+    background-color: #0070e0;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px 0 rgba(0, 112, 224, 0.15);
+  }
+
+  &--link {
+    padding: 0;
+    color: #0070e0;
+    background-color: transparent;
+  }
+
+  &--secondary {
+    font-size: 13px;
+    padding: 13px 23px;
+    border: 1px solid #e2e9f4;
+    border-radius: 4px;
+    color: #0070e0;
+    background-color: transparent;
+  }
+}

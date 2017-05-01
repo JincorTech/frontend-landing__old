@@ -4,10 +4,12 @@ import bs from 'browser-sync'
 import pug from 'gulp-pug'
 
 import postcss from 'gulp-postcss'
-import pImport from 'postcss-import'
+import atImport from 'postcss-import'
 import cssnext from 'postcss-cssnext'
 import cssnano from 'cssnano'
-
+import pcInlineSvg from 'postcss-inline-svg'
+import pcShort from 'postcss-short'
+import precss from 'precss'
 
 
 gulp.task('pug', () => gulp
@@ -17,9 +19,12 @@ gulp.task('pug', () => gulp
 
 gulp.task('css', () => {
   const plugins = [
-    pImport(),
+    atImport(),
+    precss(),
     cssnext({browsers: ['last 2 version']}),
-    cssnano()
+    cssnano(),
+    pcInlineSvg(),
+    pcShort()
   ];
 
   return gulp.src('./src/*.css')

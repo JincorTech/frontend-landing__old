@@ -1,0 +1,78 @@
+.start {
+  padding: 120px 0;
+
+  &__name {
+    font-size: 24px;
+    color: #626b74;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font: 200 48px/64px 'Roboto';
+    color: #222;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  &__steps {
+    text-align: center;
+  }
+
+  &__step {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    margin: 0 65px;
+  }
+
+  &__divider {
+    position: absolute;
+    display: inline-block;
+    size: 130px 1px;
+    background-color: #f2f4f7;
+    top: 32px;
+
+    &--left {
+      left: 100%;
+    }
+
+    &--right {
+      right: 100%;
+    }
+  }
+
+  &__circle {
+    size: 64px;
+    line-height: 64px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+
+    &--red {
+      background-color: #ff8588;
+    }
+
+    &--green {
+      background-color: #00d7a1;
+    }
+
+    &--blue {
+      background-color: #19a9ff;
+    }
+  }
+
+  &__action {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  &__button {
+    margin-top: 60px;
+    text-align: center;
+  }
+}

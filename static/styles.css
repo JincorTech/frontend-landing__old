@@ -1,1 +1,213 @@
-.landing{color:#639}
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */html{line-height:1.15; /* 1 */-ms-text-size-adjust:100%; /* 2 */-webkit-text-size-adjust:100% /* 2 */}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */article,aside,footer,header,nav,section{display:block}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */h1{font-size:2em;margin:0.67em 0}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */figcaption,figure,main{ /* 1 */display:block}
+
+/**
+ * Add the correct margin in IE 8.
+ */figure{margin:1em 40px}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */hr{box-sizing:content-box; /* 1 */height:0; /* 1 */overflow:visible /* 2 */}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */pre{font-family:monospace,monospace; /* 1 */font-size:1em /* 2 */}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */a{background-color:transparent; /* 1 */-webkit-text-decoration-skip:objects /* 2 */}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */abbr[title]{border-bottom:none; /* 1 */text-decoration:underline; /* 2 */text-decoration:underline dotted /* 2 */}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */b,strong{font-weight:inherit;font-weight:bolder}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */code,kbd,samp{font-family:monospace,monospace; /* 1 */font-size:1em /* 2 */}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */dfn{font-style:italic}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */mark{background-color:#ff0;color:#000}
+
+/**
+ * Add the correct font size in all browsers.
+ */small{font-size:80%}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */audio,video{display:inline-block}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */audio:not([controls]){display:none;height:0}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */img{border-style:none}
+
+/**
+ * Hide the overflow in IE.
+ */svg:not(:root){overflow:hidden}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Remove the margin in Firefox and Safari.
+ */button,input,optgroup,select,textarea{margin:0}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */button,input{ /* 1 */overflow:visible}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */button,select{ /* 1 */text-transform:none}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button /* 2 */}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */legend{box-sizing:border-box; /* 1 */color:inherit; /* 2 */display:table; /* 1 */max-width:100%; /* 1 */padding:0; /* 3 */white-space:normal /* 1 */}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */progress{display:inline-block; /* 1 */vertical-align:baseline /* 2 */}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */textarea{overflow:auto}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */[type=checkbox],[type=radio]{box-sizing:border-box; /* 1 */padding:0 /* 2 */}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */[type=search]{-webkit-appearance:textfield; /* 1 */outline-offset:-2px /* 2 */}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */::-webkit-file-upload-button{-webkit-appearance:button; /* 1 */font:inherit /* 2 */}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */details,menu{display:block}
+
+/*
+ * Add the correct display in all browsers.
+ */summary{display:list-item}
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */canvas{display:inline-block}
+
+/**
+ * Add the correct display in IE.
+ */
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */[hidden],template{display:none}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+
+/* HTML5 display-role reset for older browsers */article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}.container{width:980px;margin:0 auto}.button{font:500 16px Roboto;border:none;outline:none;cursor:pointer;padding:1em;color:#222}@media (max-width:320px){.button{font:500 15px Roboto}}.button--primary{padding:19px 48px;background-color:#0070e0;color:#fff;border-radius:4px;box-shadow:0 5px 10px 0 rgba(0,112,224,.15)}.button--link{padding:0}.button--link,.button--secondary{color:#0070e0;background-color:transparent}.button--secondary{font-size:13px;padding:13px 23px;border:1px solid #e2e9f4;border-radius:4px}.screenshot{height:530px;background-color:#626b74;width:890px;border-radius:4px;box-shadow:0 -10px 25px 0 rgba(0,0,0,.05);margin:0 auto}.landing{width:100%;height:100vh;min-height:640px;background-color:#fcfcfc;position:relative}.landing__wrapper{width:980px;position:absolute;top:50%;transform:translateY(-50%)}@media (max-width:980px){.landing__wrapper{width:100%}}.landing__logo{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E %3Cdefs%3E %3ClinearGradient id='a' x1='50%25' x2='0%25' y1='0%25' y2='100%25'%3E %3Cstop offset='0%25' stop-color='%2323C6FF'/%3E %3Cstop offset='100%25' stop-color='%231397FF'/%3E %3C/linearGradient%3E %3ClinearGradient id='b' x1='0%25' y1='0%25' y2='50%25'%3E %3Cstop offset='0%25' stop-color='%23028EFF'/%3E %3Cstop offset='100%25' stop-color='%23004FFF'/%3E %3C/linearGradient%3E %3ClinearGradient id='c' x1='0%25' x2='87.626%25' y1='0%25' y2='62.835%25'%3E %3Cstop offset='0%25' stop-color='%23C8EFFE'/%3E %3Cstop offset='100%25' stop-color='%2357CCFE'/%3E %3C/linearGradient%3E %3C/defs%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cpath fill='url(%23a)' d='M110.477 18.103H59.898v107.473z' transform='translate(20 12)'/%3E %3Cpath fill='url(%23b)' d='M59.898 87.89H.157l59.741 37.686z' transform='translate(20 12)'/%3E %3Cpath fill='url(%23c)' d='M110.332 18.103L30.335 0l60.977 58.82z' transform='translate(20 12)'/%3E %3C/g%3E %3C/svg%3E");background-size:contain;width:150px;height:150px;margin:0 auto}@media (max-width:420px){.landing__logo{width:80px;height:80px}}.landing__name{font-size:96px;color:#222;text-align:center;font-weight:500;margin-bottom:20px}@media (max-width:420px){.landing__name{font-size:64px}}.landing__description{font-size:28px;color:#222;line-height:44px;text-align:center}@media (max-width:720px){.landing__description{font-size:24px}}@media (max-width:420px){.landing__description{font-size:18px;line-height:30px;padding:0 20px}.landing__description>br{display:none}}.landing__try-button{margin-top:50px;text-align:center}.landing__sign-in-button{margin-top:40px;text-align:center}.start{padding:120px 0}.start__name{font-size:24px;color:#626b74;text-align:center;margin-bottom:15px}.start__title{font:200 48px/64px Roboto;color:#222;margin-bottom:55px}.start__steps,.start__title{text-align:center}.start__step{position:relative;display:inline-block;width:110px;margin:0 65px}.start__divider{position:absolute;display:inline-block;width:130px;height:1px;background-color:#f2f4f7;top:32px}.start__divider--left{left:100%}.start__divider--right{right:100%}.start__circle{width:64px;height:64px;line-height:64px;border-radius:50%;text-align:center;color:#fff;font-size:24px;margin:0 auto;box-shadow:0 5px 10px 0 rgba(0,0,0,.05)}.start__circle--red{background-color:#ff8588}.start__circle--green{background-color:#00d7a1}.start__circle--blue{background-color:#19a9ff}.start__action{margin-top:30px;font-size:20px;text-align:center}.start__button{margin-top:60px;text-align:center}.step-section{position:relative;padding:120px 0}.step-section__filled-background{top:0;left:0;position:absolute;width:100%;height:710px;z-index:-1}.step-section__filled-background--red{background-color:#ff8588}.step-section__filled-background--green{background-color:#00d7a1}.step-section__filled-background--blue{background-color:#19a9ff}.step-section__number{width:64px;height:64px;background-color:rgba(34,34,34,.05);color:#fff;border-radius:50%;line-height:64px;text-align:center;font-size:24px;margin:0 auto 50px}.step-section__title{font:200 48px/64px Roboto;color:#fff;text-align:center;margin-bottom:60px}.step-section__text{font:200 24px/1.58 Roboto;color:#626b74;text-align:center;margin:90px auto 0;max-width:600px}body{font-family:Roboto;font-weight:300;color:#333}
