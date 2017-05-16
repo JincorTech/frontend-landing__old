@@ -1,0 +1,28 @@
+.footer {
+  position: relative;
+  padding: 120px 0;
+
+  &__logo {
+    background-image: svg-load('../../svg/logo.svg');
+    background-size: contain;
+    size: 70px;
+    margin: 0 auto;
+  }
+
+  &__description {
+    margin-top: 40px;
+    font-size: 28px;
+    color: #626b74;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  &__try-button {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  &__social-networks {
+    margin-top: 120px;
+  }
+}

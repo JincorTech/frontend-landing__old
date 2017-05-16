@@ -1,0 +1,48 @@
+.social-networks {
+    text-align: center;
+
+    &__network {
+        margin: 0 45px;
+        display: inline-block;
+    }
+
+    &__circle {
+        display: inline-block;
+        size: 80px;
+        background-size: 38px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border: 1px solid #ececec;
+        border-radius: 50%;
+
+        &--facebook {
+            background-image: svg-load('../../svg/facebook.svg');
+        }
+
+        &--twitter {
+            background-image: svg-load('../../svg/twitter.svg');
+        }
+
+        &--slack {
+            background-image: svg-load('../../svg/slack.svg');
+        }
+
+        &--github {
+            background-image: svg-load('../../svg/github.svg');
+        }
+
+        &--medium {
+            background-image: svg-load('../../svg/medium.svg');
+        }
+    }
+
+    &__name {
+        margin-top: 35px;
+        font: 300 15px 'Roboto';
+        color: #222;
+        opacity: .7;
+        text-align: center;
+        user-select: none;
+        cursor: default;
+    }
+}

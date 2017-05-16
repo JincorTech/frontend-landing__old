@@ -2,6 +2,7 @@ import gulp from 'gulp'
 import bs from 'browser-sync'
 
 import pug from 'gulp-pug'
+import plumber from 'gulp-plumber'
 
 import postcss from 'gulp-postcss'
 import atImport from 'postcss-import'
@@ -14,6 +15,7 @@ import precss from 'precss'
 
 gulp.task('pug', () => gulp
   .src('./src/*.pug')
+  .pipe(plumber())
   .pipe(pug())
   .pipe(gulp.dest('./static')));
 
@@ -28,6 +30,7 @@ gulp.task('css', () => {
   ];
 
   return gulp.src('./src/*.css')
+    .pipe(plumber())
     .pipe(postcss(plugins))
     .pipe(gulp.dest('./static'))
 });

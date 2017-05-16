@@ -5,9 +5,11 @@
 @import './includes/common/container.css';
 @import './includes/common/buttons.css';
 @import './includes/common/screenshot.css';
+@import './includes/common/social-networks.css';
 @import './includes/landing/landing.css';
 @import './includes/start/start.css';
 @import './includes/step-section/step-section.css';
+@import './includes/footer/footer.css';
 
 body {
   font-family: 'Roboto';
