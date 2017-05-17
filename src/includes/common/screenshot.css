@@ -32,4 +32,45 @@
       width: 100%;
     }
   }
+
+  &__dots {
+    position: relative;
+    text-align: center;
+    padding-bottom: 120px;
+  }
+
+  &__dot {
+    size: 160px 145px;
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+      .screenshot__dot-icon {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  &__dot-icon {
+    size: 60px;
+    background-size: contain;
+    margin: 0 auto;
+    transition: .1s linear all;
+
+    &--chat { background-image: svg-load('../../svg/chat.svg') }
+    &--group { background-image: svg-load('../../svg/group.svg') }
+    &--search { background-image: svg-load('../../svg/search.svg') }
+    &--inbox { background-image: svg-load('../../svg/inbox.svg') }
+    &--channel { background-image: svg-load('../../svg/channel.svg') }
+  }
+
+  &__dot-name {
+    margin-top: 18px;
+    font: 300 15px 'Roboto';
+    color: #444;
+    text-align: center;
+  }
 }

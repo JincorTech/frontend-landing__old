@@ -9,8 +9,11 @@
 @import './includes/landing/landing.css';
 @import './includes/start/start.css';
 @import './includes/step-section/step-section.css';
-@import './includes/tabs/tabs.css';
 @import './includes/footer/footer.css';
+
+html, body {
+  height: 100%;
+}
 
 body {
   font-family: 'Roboto';
