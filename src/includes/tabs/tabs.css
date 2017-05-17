@@ -1,0 +1,82 @@
+.tabs {
+    position: relative;
+    text-align: center;
+    padding-bottom: 120px;
+
+    &__buttons {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        
+        &:after {
+            content: '';
+            position: absolute * * 0 50%;
+            margin-left: -400px;
+            size: 800px 1px;
+            z-index: -1;
+            background-color: #f2f4f7;
+        }
+    }
+
+    &__toggle {
+        size: 160px 145px;
+        display: inline-block;
+        position: relative;
+        margin: 0 10px;
+        user-select: none;
+        cursor: pointer;
+
+        &_active {
+            .tabs__icon {
+                transform: scale(1.2);
+            }
+
+            &:after {
+                content: "";
+                size: 80px 1px;
+                position: absolute * * 0px 50%;
+                margin-left: -40px;
+                background-color: #0070e0;
+            }
+        }
+
+        &:hover {
+            .tabs__icon {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &__icon {
+        size: 60px;
+        background-size: contain;
+        margin: 0 auto;
+        transition: .1s linear all;
+
+        &--chat {background-image: svg-load('../../svg/chat.svg')}
+        &--group {background-image: svg-load('../../svg/group.svg')}
+        &--search {background-image: svg-load('../../svg/search.svg')}
+        &--inbox {background-image: svg-load('../../svg/inbox.svg')}
+        &--channel {background-image: svg-load('../../svg/channel.svg')}
+    }
+
+    &__name {
+        margin-top: 18px;
+        font: 300 15px 'Roboto';
+        color: #444;
+        text-align: center;
+    }
+
+    &__content-wrap {
+        width: 640px;
+        margin: 60px auto 0;
+        text-align: center;
+    }
+
+    &__tab {
+        min-height: 111px;
+        font: 300 24px 'Roboto';
+        line-height: 1.58;
+        color: #626b74;
+    }
+}

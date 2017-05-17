@@ -16,6 +16,15 @@
     color: #fff;
     border-radius: 4px;
     box-shadow: 0 5px 10px 0 rgba(0, 112, 224, 0.15);
+    transition: .1s linear all;
+
+    &:hover {
+      background-color: #2566c2;
+    }
+
+    &:active {
+      background-color: #205bad;
+    }
   }
 
   &--link {
@@ -31,5 +40,14 @@
     border-radius: 4px;
     color: #0070e0;
     background-color: transparent;
+    transition: .1s linear all;
+
+    &:hover {
+      border: 1px solid #2566c2;
+    }
+
+    &:active {
+      border: 1px solid #205bad;
+    }
   }
 }
