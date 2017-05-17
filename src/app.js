@@ -3,16 +3,12 @@ import Siema from 'siema';
 
 // scroll
 window.sr = ScrollReveal({
+    duration: 300,
     reset: false,
     easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 });
 
-const screenshotConfig = { delay: 200, duration: 700 };
-
-sr.reveal('.js-screenshot-first', screenshotConfig);
-sr.reveal('.js-screenshot-second', screenshotConfig);
-sr.reveal('.js-screenshot-third', screenshotConfig);
-
+// landing
 sr.reveal('.js-landing-section', {
     delay: 550,
     duration: 300,
@@ -22,6 +18,33 @@ sr.reveal('.js-landing-section', {
     viewFactor: 0.00001
 });
 
+// start
+sr.reveal('.start__name', { delay: 300, origin: 'top', distance: '50px' });
+sr.reveal('.start__title', { delay: 200, origin: 'top', distance: '50px' });
+sr.reveal('.start__step--first', { delay: 400, distance: '50px' });
+sr.reveal('.start__step--second', { delay: 500, distance: '50px' });
+sr.reveal('.start__step--third', { delay: 600, distance: '50px' });
+sr.reveal('.start__divider', { delay: 800, distance: '0px' });
+sr.reveal('.start__button', { delay: 800, distance: '100px' });
+
+// steps
+sr.reveal('.step-section__number', { delay: 300, distance: '0px' });
+sr.reveal('.step-section__title', { delay: 200 });
+sr.reveal('.js-screenshot-first', { delay: 200, duration: 700 });
+sr.reveal('.js-screenshot-second', { delay: 200, duration: 700 });
+sr.reveal('.js-screenshot-third', { delay: 200, duration: 700 });
+sr.reveal('.step-section__text', { delay: 200 });
+sr.reveal('.screenshot__dots', { delay: 200 })
+
+// footer
+sr.reveal('.footer__logo', { delay: 200, origin: 'top', distance: '50px' });
+sr.reveal('.footer__description', { delay: 300, origin: 'top', distance: '50px' });
+sr.reveal('.footer__try-button', { delay: 400, origin: 'top', distance: '50px' });
+sr.reveal('.js-social-network1', { delay: 500, distance: '50px' });
+sr.reveal('.js-social-network2', { delay: 600, distance: '50px' });
+sr.reveal('.js-social-network3', { delay: 500, distance: '50px' });
+sr.reveal('.js-social-network4', { delay: 600, distance: '50px' });
+sr.reveal('.js-social-network5', { delay: 700, distance: '50px' });
 
 // siema
 const siema = new Siema({

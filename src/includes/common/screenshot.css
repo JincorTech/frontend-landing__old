@@ -37,6 +37,7 @@
   &__image {
     & img {
       width: 100%;
+      border-radius: 0 0 4px 4px;
     }
   }
 
@@ -68,7 +69,13 @@
       pointer-events: none;
 
       .screenshot__dot-icon {
-        transform: scale(1.2);
+        transform: scale(1.3);
+      }
+
+      &:hover {
+        .screenshot__dot-icon {
+          transform: scale(1.3);
+        }
       }
 
       &:after {
@@ -82,7 +89,7 @@
 
     &:hover {
       .screenshot__dot-icon {
-        transform: scale(1.2);
+        transform: scale(1.15);
       }
     }
   }
