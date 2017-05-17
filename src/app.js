@@ -35,9 +35,23 @@ const siema = new Siema({
     loop: false
 });
 
-const dots = document.querySelectorAll('.js-dot');
-const dotsArray = [].map.call(dots, obj => obj);
+const dots = [].map.call(document.querySelectorAll('.js-dot'), obj => obj);
+const slides = [].map.call(document.querySelectorAll('.js-slide'), obj => obj);
 
-dotsArray.map((dot, i) => {
-    dot.addEventListener('click', () => siema.goTo(i))
+const setActive = (collection, index) => {
+    const element = collection[index];
+    const className = element.className
+    collection.map(el => el.classList.remove('active'));
+    element.classList.toggle('active');
+}
+
+setActive(dots, 0);
+setActive(slides, 0);
+
+dots.map((dot, i) => {
+    dot.addEventListener('click', () => {
+        setActive(dots, i);
+        setActive(slides, i);
+        return siema.goTo(i);
+    });
 })
