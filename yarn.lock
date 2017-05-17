@@ -2183,10 +2183,6 @@ function-bind@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.0.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
 
-future-tabs@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/future-tabs/-/future-tabs-1.3.2.tgz#a899e4b3f86e77e99451a73753e18301f77bc487"
-
 gauge@~2.7.1:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -5379,6 +5375,10 @@ shebang-regex@^1.0.0:
 shell-quote@~0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-0.0.1.tgz#1a41196f3c0333c482323593d6886ecf153dd986"
+
+siema@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/siema/-/siema-1.4.6.tgz#f13a60c80073e52ec3fde0e9bf642825b64f4608"
 
 sigmund@~1.0.0:
   version "1.0.1"
