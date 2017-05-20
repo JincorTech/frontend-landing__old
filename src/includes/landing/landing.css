@@ -28,15 +28,11 @@
   }
 
   &__name {
-    font-size: 96px;
-    color: #222;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 20px;
-
-    @media (max-width: 420px) {
-      font-size: 64px;
-    }
+    background-image: svg-load('../../svg/jincor.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    size: 280px 120px;
+    margin: 0 auto;
   }
 
   &__description {
