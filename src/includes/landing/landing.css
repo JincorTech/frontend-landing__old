@@ -4,6 +4,7 @@
   min-height: 640px;
   background-color: #fcfcfc;
   position: relative;
+  user-select: none;
 
   &__wrapper {
     width: 980px;
@@ -28,18 +29,22 @@
   }
 
   &__name {
-    background-image: svg-load('../../svg/jincor.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    size: 280px 120px;
-    margin: 0 auto;
+    color: #333;
+    text-align: center;
+    font-size: 96px;
+    font-weight: regular;
+    margin: 10px 0 30px;
+    user-select: none;
+    cursor: default;
   }
 
   &__description {
     font-size: 28px;
-    color: #222;
+    color: #333;
     line-height: 44px;
     text-align: center;
+    user-select: none;
+    cursor: default;
 
     @media (max-width: 720px) {
       font-size: 24px;
@@ -64,5 +69,16 @@
   &__sign-in-button {
     margin-top: 40px;
     text-align: center;
+  }
+
+  &__scroll-arrow {
+    height: 30px;
+    width: 30px;
+    background-image: svg-load('../../svg/arrow-down.svg');
+    background-size: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -15px;
   }
 }

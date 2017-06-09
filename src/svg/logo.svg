@@ -1,21 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="1500px" viewBox="0 0 1500 1500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo Copy 2</title>
+    <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient id="a" x1="50%" x2="0%" y1="0%" y2="100%">
-            <stop offset="0%" stop-color="#23C6FF"/>
-            <stop offset="100%" stop-color="#1397FF"/>
+        <linearGradient x1="0%" y1="0%" x2="87.6256601%" y2="62.8346456%" id="linearGradient-1">
+            <stop stop-color="#C8EFFE" offset="0%"></stop>
+            <stop stop-color="#57CCFE" offset="100%"></stop>
         </linearGradient>
-        <linearGradient id="b" x1="0%" y1="0%" y2="50%">
-            <stop offset="0%" stop-color="#028EFF"/>
-            <stop offset="100%" stop-color="#004FFF"/>
+        <linearGradient x1="7.0728964%" y1="3.66540087%" x2="78.6295726%" y2="16.5134243%" id="linearGradient-2">
+            <stop stop-color="#028EFF" offset="0%"></stop>
+            <stop stop-color="#004FFF" offset="100%"></stop>
         </linearGradient>
-        <linearGradient id="c" x1="0%" x2="87.626%" y1="0%" y2="62.835%">
-            <stop offset="0%" stop-color="#C8EFFE"/>
-            <stop offset="100%" stop-color="#57CCFE"/>
+        <linearGradient x1="50%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#23C6FF" offset="0%"></stop>
+            <stop stop-color="#1397FF" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g fill="none" fill-rule="evenodd">
-        <path fill="url(#a)" d="M110.477 18.103H59.898v107.473z" transform="translate(20 12)"/>
-        <path fill="url(#b)" d="M59.898 87.89H.157l59.741 37.686z" transform="translate(20 12)"/>
-        <path fill="url(#c)" d="M110.332 18.103L30.335 0l60.977 58.82z" transform="translate(20 12)"/>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-Copy-2">
+            <g id="Group-3-Copy-3" transform="translate(88.699997, 50.000000)">
+                <polygon id="Path-3-Copy-2" fill="url(#linearGradient-1)" points="1321.81471 265.367487 350.924258 0.0780795593 752.537576 503.277808"></polygon>
+                <polygon id="Path-3-Copy-3" fill="url(#linearGradient-2)" points="889.008121 959.441624 0 959.441624 691.456267 1399.44184"></polygon>
+                <polygon id="Path-2-Copy" fill="url(#linearGradient-3)" points="1321.81471 265.211506 752.537576 503.121827 691.456267 1399.44184"></polygon>
+            </g>
+        </g>
     </g>
 </svg>

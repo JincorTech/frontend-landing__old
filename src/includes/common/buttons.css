@@ -16,6 +16,9 @@
     color: #fff;
     border-radius: 4px;
     box-shadow: 0 5px 10px 0 rgba(0, 112, 224, 0.15);
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
     transition: .1s linear all;
 
     &:hover {
@@ -29,6 +32,9 @@
 
   &--link {
     padding: 0;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
     color: #0070e0;
     background-color: transparent;
   }
@@ -39,6 +45,9 @@
     border: 1px solid #e2e9f4;
     border-radius: 4px;
     color: #0070e0;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
     background-color: transparent;
     transition: .1s linear all;
 

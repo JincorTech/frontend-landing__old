@@ -17,6 +17,7 @@ sr.reveal('.js-landing-section', {
     opaicty: 1,
     viewFactor: 0.00001
 });
+sr.reveal('.landing__scroll-arrow', { delay: 600, duration: 300 })
 
 // start
 sr.reveal('.start__name', { delay: 300, origin: 'top', distance: '50px' });
