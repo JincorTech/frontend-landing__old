@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "gulp"
+  },
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babelify": "^7.3.0",
     "browser-sync": "^2.18.8",
     "cssnano": "^3.10.0",
-    "gulp": "^3.9.1",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-browserify": "^0.5.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-favicons": "^2.2.7",
